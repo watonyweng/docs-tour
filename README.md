@@ -4,18 +4,30 @@ This project was generated with [spring-boot](https://github.com/spring-projects
 
 ## Environment
 
-- Java
-- Git
+- [Java](https://www.java.com)
+- [Git](https://git-scm.com)
 
 ## Installation
 
 - git clone https://github.com/watonyweng/docs-tour.git
 - cd docs-tour && mvn clean install
 
+## Compile
+
+- mvn compile
+
+## Package
+
+- mvn package
+
 ## Run
 
 - mvn spring-boot:run
 - http://localhost:8418/swagger-ui.html
+
+## Coding Guidelines
+
+- [Alibaba Java Coding Guidelines](https://github.com/alibaba/p3c)
 
 ## User Guide
 
@@ -43,13 +55,13 @@ This project was generated with [spring-boot](https://github.com/spring-projects
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.16.20</version>
+      <version>1.18.12</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.spring4all</groupId>
       <artifactId>swagger-spring-boot-starter</artifactId>
-      <version>1.7.1.RELEASE</version>
+      <version>1.9.1.RELEASE</version>
     </dependency>
     <dependency>
       <groupId>io.github.swagger2markup</groupId>
@@ -59,7 +71,7 @@ This project was generated with [spring-boot](https://github.com/spring-projects
     <dependency>
       <groupId>javax.persistence</groupId>
       <artifactId>persistence-api</artifactId>
-      <version>1.0</version>
+      <version>1.0.2</version>
     </dependency>
   </dependencies>
 ```
@@ -73,7 +85,7 @@ swagger.version=1.0.0.RELEASE
 swagger.license=Apache License, Version 2.0
 swagger.licenseUrl=https://www.apache.org/licenses/LICENSE-2.0.html
 swagger.termsOfServiceUrl=https://github.com/watonyweng
-swagger.contact.name=WaTony
+swagger.contact.name=WaTonyWeng
 swagger.contact.url=https://github.com/watonyweng
 swagger.contact.email=softweitao@126.com
 swagger.base-package=me.weitao.spring.docs

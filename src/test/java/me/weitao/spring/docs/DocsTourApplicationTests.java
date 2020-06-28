@@ -11,13 +11,18 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+/**
+ * @author Watony Weng
+ * @date 2020/06/28
+ */
+
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
 public class DocsTourApplicationTests {
 
   @Test
   public void generateAsciiDocs() throws Exception {
-    //	输出Ascii格式
+    // 输出Ascii格式
     Swagger2MarkupConfig config = new Swagger2MarkupConfigBuilder()
         .withMarkupLanguage(MarkupLanguage.ASCIIDOC)
         .build();
@@ -43,7 +48,7 @@ public class DocsTourApplicationTests {
 
   @Test
   public void generateConfluenceDocs() throws Exception {
-    //	输出Confluence使用的格式
+    // 输出Confluence使用的格式
     Swagger2MarkupConfig config = new Swagger2MarkupConfigBuilder()
         .withMarkupLanguage(MarkupLanguage.CONFLUENCE_MARKUP)
         .build();
@@ -56,7 +61,7 @@ public class DocsTourApplicationTests {
 
   @Test
   public void generateAsciiDocsToFile() throws Exception {
-    //	输出Ascii到单文件
+    // 输出Ascii到单文件
     Swagger2MarkupConfig config = new Swagger2MarkupConfigBuilder()
         .withMarkupLanguage(MarkupLanguage.ASCIIDOC)
         .build();
@@ -69,7 +74,7 @@ public class DocsTourApplicationTests {
 
   @Test
   public void generateMarkdownDocsToFile() throws Exception {
-    //	输出Markdown到单文件
+    // 输出Markdown到单文件
     Swagger2MarkupConfig config = new Swagger2MarkupConfigBuilder()
         .withMarkupLanguage(MarkupLanguage.MARKDOWN)
         .build();

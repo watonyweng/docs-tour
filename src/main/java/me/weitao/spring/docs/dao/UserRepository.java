@@ -5,6 +5,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
+/**
+ * @author Watony Weng
+ * @date 2020/06/28
+ */
+
 public interface UserRepository extends JpaRepository<User, Long> {
 
   User findByName(String name);

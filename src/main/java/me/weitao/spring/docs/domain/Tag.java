@@ -7,6 +7,11 @@ import javax.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * @author Watony Weng
+ * @date 2020/06/28
+ */
+
 @Getter
 @Setter
 @Entity

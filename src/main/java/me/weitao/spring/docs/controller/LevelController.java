@@ -19,7 +19,7 @@ import me.weitao.spring.docs.domain.Level;
 
 /**
  * @author Watony Weng
- * @date 2018年6月8日
+ * @date 2020/06/28
  * @see org.springframework.web.bind.annotation.RestController
  */
 

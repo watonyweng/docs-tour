@@ -19,6 +19,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * @author Watony Weng
+ * @date 2020/06/28
+ * @see org.springframework.web.bind.annotation.RestController
+ */
+
 @RestController
 @RequestMapping(value = "/member")
 @Api(value = "会员管理", description = "会员管理")

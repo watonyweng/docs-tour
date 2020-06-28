@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Watony Weng
- * @date 2018年6月8日
+ * @date 2020/06/28
  * @see org.springframework.boot.autoconfigure.SpringBootApplication
  */
 
@@ -17,4 +17,5 @@ public class DocsTourApplication {
   public static void main(String[] args) {
     SpringApplication.run(DocsTourApplication.class, args);
   }
+
 }

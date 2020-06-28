@@ -16,6 +16,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author Watony Weng
+ * @date 2020/06/28
+ * @see org.springframework.web.bind.annotation.RestController
+ */
+
 @RestController
 @RequestMapping(value = "/tag")
 @Api(value = "标签管理", description = "标签管理")

@@ -1,5 +1,10 @@
 package me.weitao.spring.docs.service;
 
-public interface MemberService {
+/**
+ * @author Watony Weng
+ * @date 2020/06/28
+ */
+
+ public interface MemberService {
 
 }

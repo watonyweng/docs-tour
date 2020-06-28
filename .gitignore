@@ -1,7 +1,8 @@
+### Compile Directory ###
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
-### STS ###
+### STS Directory ###
 .apt_generated
 .classpath
 .factorypath
@@ -10,13 +11,13 @@
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+### IntelliJ IDEA Directory ###
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+### NetBeans Directory ###
 /nbproject/private/
 /build/
 /nbbuild/
